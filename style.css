@@ -1,0 +1,73 @@
+/*Parte responsável pela cor de fundo da página*/
+body{
+	background-color:rgba(175, 117, 127, 0.644);
+}
+
+/*Parte responsável pela melhor estética da div onde possui os botões*/
+.selections
+{
+	display: flex;
+	justify-content: center;
+	margin-top: 50px;
+}
+
+/*Parte responsável pela melhor estética dos botões*/
+
+.selection
+{
+	background:none;
+	border:none;
+	outline: none;
+	cursor: pointer;
+	font-size:6rem; 
+	transition: 100ms;
+}
+
+/*Parte que altera o tamanho da imagem*/
+img{
+    width: 40%;
+}
+
+/*Parte que altera o tamanho rapidamente do emoji*/
+.selection:hover
+{
+	transform: scale(1.5); 
+}
+
+/*Parte que modifica os resultados ao escolher*/
+.results{
+	display: grid;
+	justify-content: center;
+	grid-template-columns: repeat(2,1fr);
+	justify-items: center;
+	align-items: center;
+	margin-top: 2rem;
+	font-size: 2rem;
+}
+
+/*Parte que altera e personaliza os resultados*/
+.result-score
+{
+	margin-left: 0.1rem;
+	font-size: 1.3rem;
+	color: #5d0531;
+}
+
+/*parte que altera a opacidade*/
+.result-selection
+{
+	opacity: .5 
+}
+
+/*Parte que escolhe fonte e opacidade*/
+.result-selection.winner
+{
+	opacity: 1; 
+	font-size: 2.5rem;
+}
+
+/*Cor do texto*/
+.you-text, .computer-text
+{
+	color: #000000;
+}
