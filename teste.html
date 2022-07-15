@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width",initial-scale=1.0>
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Pedra, Papel e Tesoura</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="script.js" defer></script> 
+</head>
+<body>
+
+	<div class="selections">
+		<button class="selection" data-selection="rock"><img src="punho-fechado.png"></button>   
+		<button class="selection" data-selection="paper"><img src="palma-da-mao.png"></button>
+		<button class="selection" data-selection="scissors"><img src="paz.png"></button>
+	</div>
+	<div class="results">
+		<div class="you-text">
+			Você:
+			<span class="result-score" data-your-score>0</span>
+		</div>
+		<div  class="computer-text" data-final-column>
+			Computador:
+			<span class="result-score" data-computer-score>0</span>
+		</div>
+	</div>
+</body>
+</html>
